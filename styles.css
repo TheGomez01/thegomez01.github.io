@@ -58,9 +58,9 @@ p {
     display: block;
 }
 
-/* The p element in the footer needed to be shrunk and centered */
+/* The spn element in the footer needed to be shrunk and centered */
 footer span {
-    display: flex;
+    justify-content: center;
     text-align: center; 
     border: 5px solid #7c85b3;
     background-color: #49558c;
