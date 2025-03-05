@@ -59,9 +59,14 @@ p {
 }
 
 /* The p element in the footer needed to be shrunk and centered */
-footer p {
+footer span {
     text-align: center; 
-    font-size: 14px;
+    border: 5px solid #7c85b3;
+    background-color: #49558c;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
 }
 
 /* I used this class in order to make the p element and the iframe element sit next to each other */
