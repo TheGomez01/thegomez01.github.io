@@ -7,8 +7,11 @@ nav {
 }
 
 /* Hovering over links now has a visual indicator */
-a:hover {
-    color: yellow;
+a {
+    color: white;
+     :hover {
+        color: yellow;
+    }   
 }
 
 /* Header 1's size, alignment and color are set here */
@@ -51,7 +54,7 @@ p {
 
 /* The spn element in the footer needed to be shrunk and centered */
 footer span {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     text-align: center; 
     border: 5px solid #7c85b3;
