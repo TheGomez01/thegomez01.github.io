@@ -9,6 +9,7 @@ nav {
 /* Adjusting the color of links to make them visible */
 a {
     color: white;
+    font-size: 10vw
 }
 
 /* Hovering over links now has a visual indicator */
@@ -105,5 +106,5 @@ img {
     display: block;
     margin: auto;
     max-width: 50%;
-    max-height: 50%;
+    height: auto;
 }
