@@ -1,0 +1,109 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+/* Adjusting the color of links to make them visible */
+a {
+    color: white;
+}
+
+/* Hovering over links now has a visual indicator */
+a:hover {
+    color: yellow;
+}
+
+/* Header 1's size, alignment and color are set here */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* Header 2's size and color are set here */
+h2 {
+    font-size: 25px;
+    color: white;
+}
+
+/* Header 3's size and color are set here */
+h3 {
+    font-size: 20px;
+    color: white;
+}
+
+/* Background image is set here */
+body {
+    background-image: url(Images/Background.png);
+}
+
+/* */
+div {
+    text-align: center; 
+    color: white;
+    font-size: 20px;
+}
+
+/* Sets the default settings for all p elements */
+p {
+    border: 5px solid #7c85b3;
+    background-color: #49558c;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* The p element in the footer needed to be shrunk and centered */
+footer p {
+    text-align: center; 
+    font-size: 14px;
+}
+
+/* I used this class in order to make the p element and the iframe element sit next to each other */
+.leftText {
+    width: 35vw;
+    min-width: 400px;
+}
+
+/* Sets the default settings for the YouTube video found on the About Me page. */
+iframe {
+    display: flex;
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sets the breakpoints for the YouTube video found on the About Me page. */
+@media (max-width: 900px) {
+    iframe {
+        width: 250px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1800px) {
+    iframe {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 2700px) {
+    iframe {
+        width: 750px;
+        height: 375px;
+    }
+}
+
+/* Sets the default settings for the image found on the Hero page. */
+img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
