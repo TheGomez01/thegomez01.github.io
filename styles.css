@@ -30,6 +30,7 @@ h3 {
 /* Background image is set here */
 body {
     background-image: url(Images/Background.png);
+    color: white;
 }
 
 /* */
@@ -50,7 +51,7 @@ p {
 
 /* The spn element in the footer needed to be shrunk and centered */
 footer span {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-align: center; 
     border: 5px solid #7c85b3;
