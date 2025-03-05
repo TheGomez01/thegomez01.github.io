@@ -6,11 +6,6 @@ nav {
     padding-bottom: 15px;
 }
 
-/* Adjusting the color of links to make them visible */
-a {
-    color: white;
-}
-
 /* Hovering over links now has a visual indicator */
 a:hover {
     color: yellow;
@@ -20,19 +15,16 @@ a:hover {
 h1 {
     font-size: 50px;
     text-align: center;
-    color: white;
 }
 
 /* Header 2's size and color are set here */
 h2 {
     font-size: 25px;
-    color: white;
 }
 
 /* Header 3's size and color are set here */
 h3 {
     font-size: 20px;
-    color: white;
 }
 
 /* Background image is set here */
@@ -43,7 +35,6 @@ body {
 /* */
 div {
     text-align: center; 
-    color: white;
     font-size: 20px;
 }
 
@@ -53,7 +44,6 @@ p {
     background-color: #49558c;
     border-radius: 5px;
     font-size: 20px;
-    color: white;
     padding: 10px;
     display: block;
 }
@@ -67,7 +57,6 @@ footer span {
     background-color: #49558c;
     border-radius: 5px;
     font-size: 15px;
-    color: white;
     padding: 10px;
 }
 
