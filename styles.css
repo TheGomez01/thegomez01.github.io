@@ -60,11 +60,12 @@ p {
 
 /* The p element in the footer needed to be shrunk and centered */
 footer span {
+    display: flex;
     text-align: center; 
     border: 5px solid #7c85b3;
     background-color: #49558c;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     padding: 10px;
 }
