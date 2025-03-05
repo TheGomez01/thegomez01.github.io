@@ -37,7 +37,10 @@ h3 {
 
 /* Background image is set here */
 body {
-    background-image: url(Images/Background.png);
+    /* Temporarily disabled while configuring website.
+        background-image: url(Images/Background.png); 
+    */
+    background-color: blue;
 }
 
 /* */
