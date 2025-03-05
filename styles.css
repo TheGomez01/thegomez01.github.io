@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 10px;
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
@@ -18,7 +18,7 @@ a:hover {
 
 /* Header 1's size, alignment and color are set here */
 h1 {
-    font-size: 25vw;
+    font-size: 50px;
     text-align: center;
     color: white;
 }
@@ -37,7 +37,7 @@ h3 {
 
 /* Background image is set here */
 body {
-    background-image: url(Images/Background.png); 
+    background-image: url(Images/Background.png);
 }
 
 /* */
@@ -105,5 +105,5 @@ img {
     display: block;
     margin: auto;
     max-width: 50%;
-    height: auto;
+    max-height: 50%;
 }
