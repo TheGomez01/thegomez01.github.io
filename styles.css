@@ -9,10 +9,11 @@ nav {
 /* Hovering over links now has a visual indicator */
 a {
     color: white;
-     a:hover {
-        color: yellow;
-    }   
 }
+
+a:hover {
+    color: yellow;
+}   
 
 /* Header 1's size, alignment and color are set here */
 h1 {
@@ -44,6 +45,10 @@ div {
 
 /* Sets the default settings for all p elements */
 p {
+    font-size: 20px;
+}
+
+.fancyBorder {
     border: 5px solid #7c85b3;
     background-color: #49558c;
     border-radius: 5px;
