@@ -3,7 +3,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-wrap: nowrap;
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 /* Hovering over links now has a visual indicator */
@@ -17,7 +17,7 @@ a:hover {
 
 /* Header 1's size, alignment and color are set here */
 h1 {
-    font-size: 50px;
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -49,6 +49,26 @@ p {
     display: block;
 }
 
+span {
+    margin: 5vh auto;
+    justify-content: center;
+    display: flex;
+    text-wrap: nowrap;
+    font-size: 5vw;
+    font-style: italic;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+}
+
 .fancyBorder {
     border: 5px solid #7c85b3;
     background-color: #49558c;
@@ -57,17 +77,17 @@ p {
     padding: 10px;
 }
 
-/* The spn element in the footer needed to be shrunk and centered */
-footer p {
-    display: inline-block;
-    justify-content: center;
-    text-align: center; 
-}
-
 /* I used this class in order to make the p element and the iframe element sit next to each other */
 .leftText {
-    width: 35vw;
-    min-width: 400px;
+
+    width: 40vw;
+    min-width: 15vw;
+}
+
+.rightText {
+    float: right;
+    width: 40vw;
+    min-width: 15vw;
 }
 
 /* Sets the default settings for the YouTube video found on the About Me page. */
@@ -103,7 +123,8 @@ iframe {
 /* Sets the default settings for the image found on the Hero page. */
 img {
     display: block;
+    justify-self: center;
     margin: 5vw;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 75vw !important;
+    max-height: 75vh !important;
 }
