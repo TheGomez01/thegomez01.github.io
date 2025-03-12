@@ -55,6 +55,7 @@ span {
     display: flex;
     text-wrap: nowrap;
     font-size: 10vw;
+    max-width: 100px;
     font-style: italic;
     color: white;
 }
@@ -74,13 +75,11 @@ footer p {
     border: 5px solid #7c85b3;
     background-color: #49558c;
     border-radius: 5px;
-    font-size: 20px;
     padding: 10px;
 }
 
 /* I used this class in order to make the p element and the iframe element sit next to each other */
 .leftText {
-
     width: 40vw;
     min-width: 15vw;
 }
