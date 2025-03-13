@@ -3,7 +3,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-wrap: nowrap;
-    font-size: 2vw;
+    font-size: max(2vw, 12px);
 }
 
 
