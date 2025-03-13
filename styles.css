@@ -6,29 +6,30 @@ nav {
     font-size: 2vw;
 }
 
-/* Hovering over links now has a visual indicator */
+
 a {
     color: white;
 }
 
+/* Hovering over links now has a visual indicator */
 a:hover {
     color: yellow;
 }   
 
-/* Header 1's size, alignment and color are set here */
+/* Header 1's size and alignment are set here */
 h1 {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
 }
 
-/* Header 2's size and color are set here */
+/* Header 2's size is set here */
 h2 {
-    font-size: 25px;
+    font-size: 3vw;
 }
 
-/* Header 3's size and color are set here */
+/* Header 3's size is set here */
 h3 {
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 /* Background image is set here */
@@ -45,12 +46,12 @@ div {
 
 /* Sets the default settings for all p elements */
 p {
-    font-size: 20px;
+    font-size: 1.5vw;
     display: block;
 }
 
 span {
-    margin: 5vh auto;
+    margin: 2vh auto;
     justify-content: center;
     display: flex;
     text-wrap: nowrap;
@@ -67,8 +68,7 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 1vw;
-    min-width: 5px;
+    font-size: 12px;
 }
 
 .fancyBorder {
@@ -99,7 +99,14 @@ iframe {
 }
 
 /* Sets the breakpoints for the YouTube video found on the About Me page. */
+
+@media (max-width: 600px) {
+    nav {
+
+    }
+}
 @media (max-width: 900px) {
+
     iframe {
         width: 250px;
         height: 100px;
