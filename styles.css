@@ -18,7 +18,7 @@ a:hover {
 
 /* Header 1's size and alignment are set here */
 h1 {
-    font-size: 4vw;
+    font-size: max(4vw, 30px);
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
 
 /* Sets the default settings for all p elements */
 p {
-    font-size: max(1.25vw, 12px);
+    font-size: max(1.25vw, 15px);
     display: block;
 }
 
@@ -62,7 +62,7 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: max(1.25vw, 12px);
+    font-size: max(1.25vw, 10px);
 }
 
 .container {
