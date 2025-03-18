@@ -1,3 +1,4 @@
+/* The navigation bar is set here. */
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -6,44 +7,45 @@ nav {
     font-size: max(2vw, 12px);
 }
 
-
+/* Hyperlink text color is set here. */
 a {
     color: white;
 }
 
-/* Hovering over links now has a visual indicator */
+/* Hovering over a link turns it yellow. */
 a:hover {
     color: yellow;
 }   
 
-/* Header 1's size and alignment are set here */
+/* Header 1's size and alignment are set here. */
 h1 {
     font-size: max(4vw, 30px);
     text-align: center;
 }
 
-/* Header 2's size is set here */
+/* Header 2's size is set here. */
 h2 {
     font-size: max(3vw, 25px);
 }
 
-/* Header 3's size is set here */
+/* Header 3's size is set here. */
 h3 {
     font-size: max(2vw, 20px);
 }
 
-/* Background image is set here */
+/* An image is pulled from the Images folder to set as the background. */
 body {
     background-image: url(Images/Background.png);
     color: white;
 }
 
-/* Sets the default settings for all p elements */
+/* Sets the default settings for all p elements. */
 p {
     font-size: max(1.25vw, 15px);
     display: block;
 }
 
+/* Span elements are set here. */
 span {
     margin: 2vh auto;
     justify-content: center;
@@ -54,28 +56,33 @@ span {
     color: white;
 }
 
+/* The Contact Form is set here. */
 div {
     display: flex;
     justify-content: center;
     font-size: max(1.25vw, 15px);
 }
 
+/* All Footer elements are set here. */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* The text inside of a footer element is centered and it's size made responsive. */
 footer p {
     text-align: center;
     font-size: max(1.25vw, 10px);
 }
 
+/* The container class houses the p and iframe element found on the About Me page. */
 .container {
     display: flex;
     align-items: stretch;
 }
 
+/* The fancyBorder class sets the aesthetic look most elements. */
 .fancyBorder {
     border: 5px solid #7c85b3;
     background-color: #49558c;
@@ -83,12 +90,13 @@ footer p {
     padding: 10px;
 }
 
-/* I used this class in order to make the p element and the iframe element sit next to each other */
+/* The leftText class makes a p element "float" to the left.*/
 .leftText {
     width: 40vw;
     min-width: 15vw;
 }
 
+/* The rightText class makes a p element "float" to the right. */
 .rightText {
     float: right;
     width: 40vw;
