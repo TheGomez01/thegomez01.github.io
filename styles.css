@@ -107,6 +107,7 @@ img {
     display: block;
     justify-self: center;
     margin: 5vw;
+    margin-top: 0px;
     max-width: 75vw !important;
     max-height: 75vh !important;
 }
