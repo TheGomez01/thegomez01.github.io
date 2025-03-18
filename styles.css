@@ -54,6 +54,12 @@ span {
     color: white;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    font-size: max(1.25vw, 15px);
+}
+
 footer {
     display: flex;
     justify-content: center;
